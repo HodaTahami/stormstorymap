@@ -2,7 +2,7 @@
 
 
 **Story map**| **May 22, 2018** | **GPS Meterology** | **Contributors:** 
-[Hoda Tahami](https://github.com/HodaTahami/stormstorymap)
+[Hoda Tahami](https://hodatahami.github.io/stormstorymap/)
 
 ![](img/1.png)
 
@@ -17,7 +17,7 @@ The accurate prediction of the path and intensity of a hurricane is crucial for 
                     PWV spatial-temporal variations during a hurricane event, the nature of PWV of this type of event can be
                     characterized.
 
- ###Set up the workspace
+ ### Set up the workspace
  The basic folder structure to generate a story map should be as follows:
    ```powershell
    lab5
@@ -176,7 +176,7 @@ talk about the Hurricane Path Prediction
 
 
 
-section 4: end
+##### section 4: end
 in final section we add another background picture
  ![](img/4.PNG)
 ```html
@@ -256,7 +256,7 @@ An identify Icon to introduce the story map and auther and etc.
 
 ```
 
-## Defining layers
+##### Defining layers
 
 we introduce 3 different base map layers and also add data
 
@@ -293,7 +293,7 @@ we introduce 3 different base map layers and also add data
 
  
 ```
-
+##### Scenes
 In next step we define scenes
 ```
   var scenes = {
@@ -303,6 +303,8 @@ In next step we define scenes
         end: {lat: 44.0000000, lng: -123.5000000, zoom: 7, name: 'The End'}
     };
  ```
+ 
+ ##### Story map elements
  Finally define the story map elements
   ```
       $('#storymap').storymap({
