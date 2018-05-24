@@ -4,7 +4,7 @@
 **Story map**| **May 22, 2018** | **GPS Meterology** | **Contributors:** 
 [Hoda Tahami](https://github.com/HodaTahami/)
 
-
+![](img/1.PNG)
 
 
 
@@ -17,8 +17,7 @@ The accurate prediction of the path and intensity of a hurricane is crucial for 
                     from the tropospheric delay of GNSS signal propagated from a satellite to a receiver on the ground. By observing
                     PWV spatial-temporal variations during a hurricane event, the nature of PWV of this type of event can be
                     characterized.
-![](img/1.png)
-![](img/2.PNG)
+
   
 
  ### Set up the workspace
