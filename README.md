@@ -1,8 +1,8 @@
-# GPS Meterology
+# [GPS Meterology](https://hodatahami.github.io/stormstorymap/)
 
 
 **Story map**| **May 22, 2018** | **GPS Meterology** | **Contributors:** 
-[Hoda Tahami](https://hodatahami.github.io/stormstorymap/)
+[Hoda Tahami](https://github.com/HodaTahami/)
 
 ![](img/1.png)
 
