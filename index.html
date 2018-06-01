@@ -130,9 +130,9 @@
 
             <section data-scene="GIS2inGPS" style="color: #045a8d">
 
-                <h2 style="color: #04172f" align="left" ><b>Model's Residual Dispplay</b></h2>
+                <h2 style="color: #04172f" align="left" ><b>Model's Discrepancy & Hurricane Path</b></h2>
                 <p align="justify" style="color: #04172f">
-                    By comparing different prediction time lags, the stations with minimum residuals are determined and clustered as a group.  The characteristics of PWV in each cluster in time domain plays a role as a forecast indicator,
+                    By comparing different prediction time lags, the stations with minimum discrepancy are determined and clustered as a group.  The characteristics of PWV in each cluster in time domain plays a role as a forecast indicator,
                     which is extended to predict the path of the hurricane and its intensity as well..</p>
                 <br/>
                 <img src="img/GIS3.jpg" class="img-responsive" alt="responsive image" alt-text="gis_res" >
@@ -294,7 +294,7 @@
         },
 
         pathcorss: {
-            layer: L.geoJson.ajax('assets/new.geojson', {
+            layer: L.geoJson.ajax('assets/CorsOnPath.geojson', {
                 color: 'Red',
                 weight: 10,
                 opacity: 0.5
@@ -347,7 +347,7 @@
         GPSMap: {lat: 32.104717, lng:  -90.335284 , zoom: 6, name: 'GPSMap',layers: ['Stations']},
         GPS_PWV_Rain: {lat: 28.621986, lng:   -82.301035 , zoom: 8, name: 'GPSMap2',layers: ['atmopshere','rainfall']},
         GISinGPS: {lat:33.674463,  lng:  -84.047502, zoom: 7, name: 'GPSMap3',layers: ['GIS1','states2','rainfall2']},
-        GIS2inGPS: {lat: 30.613760,  lng:-83.287718, zoom: 6.5, name: 'GPSMap4',layers: ['states','pathline','rainfall3']},
+        GIS2inGPS: {lat: 32.689584, lng:-83.571749 , zoom: 7, name: 'GPSMap4',layers: ['states','pathline','pathcorss','rainfall3']},
         Path: {lat: 31.648100, lng:  -83.445390 , zoom: 7, name: 'Path',layers: ['HurricanePath','pathline', 'satellite'] },
         end: {lat: 44.0000000, lng: -123.5000000, zoom: 7, name: 'The End'}
     };

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID_1": 1, "OBJECTID": 1, "ID": "NCBE", "LAT": 34.71903, "LONG": -76.671942, "Elliposid": -27.858, "Ortho_H": " 9.652", "F6": 34.0, "F7": 43.0, "F8": 8.50895, "F9": null, "F10": 76.0, "F11": 40.0, "F12": 18.9914 }, "geometry": { "type": "Point", "coordinates": [ -76.671942055481452, 34.719030264235414 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 3, "OBJECTID": 3, "ID": "NCCH", "LAT": 34.344508, "LONG": -77.874972, "Elliposid": -22.806, "Ortho_H": " 13.886", "F6": 34.0, "F7": 20.0, "F8": 40.2286, "F9": null, "F10": 77.0, "F11": 52.0, "F12": 29.89892 }, "geometry": { "type": "Point", "coordinates": [ -77.874971922116345, 34.344507944386294 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 5, "OBJECTID": 5, "ID": "SCHY", "LAT": 33.939927, "LONG": -78.735245, "Elliposid": -16.038, "Ortho_H": "18.77", "F6": 33.0, "F7": 56.0, "F8": 23.73651, "F9": null, "F10": 78.0, "F11": 44.0, "F12": 6.88294 }, "geometry": { "type": "Point", "coordinates": [ -78.735245261059845, 33.939926808575535 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 6, "OBJECTID": 6, "ID": "SCWT", "LAT": 32.903431, "LONG": -80.668409, "Elliposid": -1.964, "Ortho_H": "29.73", "F6": 32.0, "F7": 54.0, "F8": 12.35304, "F9": null, "F10": 80.0, "F11": 40.0, "F12": 6.27377 }, "geometry": { "type": "Point", "coordinates": [ -80.66840938098801, 32.903431400139084 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 9, "OBJECTID": 9, "ID": "ZJX1", "LAT": 30.698853, "LONG": -81.91552, "Elliposid": 3.181, "Ortho_H": "31.47", "F6": 30.0, "F7": 41.0, "F8": 55.87212, "F9": null, "F10": 81.0, "F11": 54.0, "F12": 55.87212 }, "geometry": { "type": "Point", "coordinates": [ -81.915520033023029, 30.69885336698934 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 10, "OBJECTID": 10, "ID": "FLBN", "LAT": 29.594142, "LONG": -81.287096, "Elliposid": -8.889, "Ortho_H": "19.83", "F6": 29.0, "F7": 35.0, "F8": 38.91184, "F9": null, "F10": 81.0, "F11": 17.0, "F12": 13.54649 }, "geometry": { "type": "Point", "coordinates": [ -81.287096246894237, 29.594142178019126 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 16, "OBJECTID": 16, "ID": "OKCB", "LAT": 27.466032, "LONG": -80.855328, "Elliposid": -13.757, "Ortho_H": null, "F6": 27.0, "F7": 27.0, "F8": 57.71558, "F9": null, "F10": 80.0, "F11": 51.0, "F12": 19.18163 }, "geometry": { "type": "Point", "coordinates": [ -80.855328000386862, 27.46603200017671 ] } }
+]
+}
