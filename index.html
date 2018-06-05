@@ -98,7 +98,7 @@
             </section>
             <section data-scene="GPS_PWV_Rain">
 
-                <h2 style="color: rgba(4,22,44,0.93)" align="left" ><b>GPS derived precipitaion vs ATM parameters</b></h2>
+                <h2 style="color: rgba(4,22,44,0.93)" align="left" ><b>GPS derived precipitation vs ATM parameters</b></h2>
                 <p align="justify">
                     classification based on the hurricane occurrence time by connecting to the PWV observations time series and the defined threshold. The GNSS-derived PWV time series fluctuate below 0.055 during the “before” class (normal condition) where the precipitation associated to the hurricane does not happen. The estimated PWV keeps increasing to exceed the threshold where the “right before” class is defined. The “right before” class keeps for about one hour. The PWV series show an active, increasing pattern in the “during” class whereas the rainfall amounts reach its peak. Then PWV time series dramatically decrease to reach the threshold where the “right after” class is defined. It then fluctuates below the level of threshold while the “after” class is formed where rainfall is started to stop.
                     It is evident that all precipitation events happen when the PWV is fluctuating above the 0.050 m. </p>
@@ -308,7 +308,7 @@
         },
 
 
-        rainfall: {
+        rainfall0: {
             layer: L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/MODIS_Terra_CorrectedReflectance_TrueColor/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
                 attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
                 bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
@@ -345,10 +345,10 @@
     var scenes = {
         overview: {lat: 44.0000000, lng: -123.5000000, zoom: 7, name: 'Cover Page'},
         GPSMap: {lat: 32.104717, lng:  -90.335284 , zoom: 6, name: 'GPSMap',layers: ['Stations']},
-        GPS_PWV_Rain: {lat: 28.621986, lng:   -82.301035 , zoom: 8, name: 'GPSMap2',layers: ['atmopshere','rainfall']},
+        GPS_PWV_Rain: {lat: 28.621986, lng:   -82.301035 , zoom: 8, name: 'GPSMap2',layers: ['atmopshere','rainfall0']},
         GISinGPS: {lat:33.674463,  lng:  -84.047502, zoom: 7, name: 'GPSMap3',layers: ['GIS1','states2','rainfall2']},
         GIS2inGPS: {lat: 32.689584, lng:-83.571749 , zoom: 7, name: 'GPSMap4',layers: ['states','pathline','pathcorss','rainfall3']},
-        Path: {lat: 31.648100, lng:  -83.445390 , zoom: 7, name: 'Path',layers: ['HurricanePath','pathline', 'satellite'] },
+        Path: {lat: 31.648100, lng:  -83.445390 , zoom: 6.5, name: 'Path',layers: ['states','HurricanePath','pathline', 'satellite'] },
         end: {lat: 44.0000000, lng: -123.5000000, zoom: 7, name: 'The End'}
     };
 
